@@ -1,0 +1,11 @@
+*{
+        /* primary color */
+        --soft-red: hsl(10, 79%, 65%);
+        --Cyan: hsl(186, 34%, 60%);
+        /* Neutral */
+        --dark-brown: hsl(25, 47%, 15%);
+        --medium-brown: hsl(28, 10%, 53%);
+        --creamy: hsl(27, 66%, 92%);
+        --white-orange: hsl(33, 100%, 98%);
+      
+}
