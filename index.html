@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/style.css">
   <title>JS | Expenses chart component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  
-  <header class="my-balance">
-    <article></article>
-    <article></article>
+<main class="card">
+  <header class="header-red">
+    <div class="p-and-price-box">
+      <p class="my-balance">My balance</p>
+      <h2>$921.48</h2>
+    </div>
+    <div class="circles">
+      <div class="circle-line-white"></div>
+      <div class="circle-black-solid"></div>
+    </div>
   </header>
-  <main class="card">
+  <main class="card-white">
+    <section class="">
+      <h2 class="tittle-card">Spending - Last 7 days</h2>
+    </section>
+    <section>Grafic</section>
+
+    <section class="footer-card">
+      <article class="left-section-footer">
+        <p>Total this month</p>
+        <h2>$478.33</h2>
+      </article>
+      <article class="right-section-footer">
+        <h3>+2.4%</h3>
+        <p>from last month</p>
+      </article>
+    </section>
 
   </main>
-</body>
+  <script src="/component.js"></script>
+  </body>
+
 </html>
